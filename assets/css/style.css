@@ -1,0 +1,107 @@
+body, html {
+    height: 100%;
+    background-color: #f6de6c;*/
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+       background-image:  url("../images/coffee.jpeg");
+/*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),*/
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#img-mobile {
+	height: 80%;
+	width: 80%;
+}
+
+#img-profile {
+	height: 40%;
+	width: 40%;
+
+}
+
+#main-content-text {
+
+}
+
+.portfoliotext {
+	text-align: center;
+	overflow: hidden;
+}
+
+.skills {
+	margin: 0;
+/*	background-color: #f6de6c;*/
+	width: 100%;
+	height: 100%;
+}
+/*#cap1 {
+	text-align: center;
+}*/
+
+.profile-pic #img-profile {
+	position: relative;
+	left: 180px;
+}
+
+.container .row. .col-md-6 {
+	background-color: white;
+}
+
+.bgcolorskills {
+	background-color: white;
+	margin: 0;
+	padding: 5px;
+	height: 20rem;
+	border-top: 2px solid black;
+	
+
+}
+
+/*.red {
+	background-color: red;
+	height: 20rem;
+	width: 100%;
+}
+
+.green {
+	background-color: green;
+	height: 20rem;
+	width: 100%;
+}
+
+.blue {
+		background-color: blue;
+	height: 100px;
+	width: 100%;
+}
+
+.orange {
+		background-color: orange;
+	height: 100px;
+	width: 100%;
+}*/
