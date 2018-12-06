@@ -6,7 +6,7 @@
 
 .bgother1 {
 	background-image: url("../images/bgother1.jpg");
-	height: 750px;
+	
 	background-size: cover;
 	background-repeat: repeat;
 }
@@ -17,7 +17,7 @@
 }
 
 .imgsize {
-	height: 30vh;
+	height: 25vh;
 }
 
 .bgabout {
